@@ -1,0 +1,9 @@
+{
+	"name": "omkaragithub",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2d6881f6-777b-4fac-8b7a-ff546d4210f0",
+		"tenantId": "d2439e9b-fc96-4bc4-ac61-3de0cc59217d"
+	}
+}
