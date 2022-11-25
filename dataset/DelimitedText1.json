@@ -1,0 +1,60 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "OmkarADFDEMO_Trigger runs.csv",
+				"container": "demo"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Trigger name",
+				"type": "String"
+			},
+			{
+				"name": "Trigger type",
+				"type": "String"
+			},
+			{
+				"name": "Trigger time",
+				"type": "String"
+			},
+			{
+				"name": "Status",
+				"type": "String"
+			},
+			{
+				"name": "Pipelines",
+				"type": "String"
+			},
+			{
+				"name": "Run",
+				"type": "String"
+			},
+			{
+				"name": "Message",
+				"type": "String"
+			},
+			{
+				"name": "Properties",
+				"type": "String"
+			},
+			{
+				"name": "Run ID",
+				"type": "String"
+			}
+		]
+	}
+}
